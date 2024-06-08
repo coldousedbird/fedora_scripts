@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="Unicode">
+  <title>New Tab</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      background: linear-gradient(to right, #3D3846, #000000);
+      margin: 0; /* убирает отступы по умолчанию */
+      height: 100vh; /* устанавливает высоту тела на 100% высоты viewport */
+      display: flex;
+      flex-direction: row;    
+      justify-content: center; 
+      align-items: center;
+    }
+    
+    div {
+      width: fit-content;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;      
+      padding-top: 45px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      position: relative;
+      outline: 2px solid; 
+    }
+    .div-title {
+      position: absolute;
+      border-radius: 10px;
+      top: 0;
+      left: 5;
+      line-height: 1;
+      font-size: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      outline: 2px solid; 
+    } 
+    a {
+      /*outline: 1px solid black;*/
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      gap: 10px;
+    }
+    a :hover {
+      text-decoration:underline;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      /*outline: 1px solid black;*/
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      /*outline: 1px solid black;*/
+    }
+    span {
+      line-height: 30px;
+      font-size: 30px;
+      color: white;
+      padding: 0px;
+      margin: 0px;
+      /*outline: 1px solid black;*/
+    }
+
+  </style>
+</head>
+<body>
+  <!--yandex section-->
+  <div class="container" style="background-color: rgba(255, 255, 0, 0.05); color: #FFCC00;">
+    <span class="div-title" style="color: #FFCC00"> yandex </span>
+    
+    <a href="https://music.yandex.ru/home" rel="noreferrer">
+      <img alt="music.yandex.ru" src="https://icons.duckduckgo.com/ip3/music.yandex.ru.ico"> <span>ymusic</span>
+    </a>
+
+
+    <a href="https://mail.yandex.com/?uid=221957066#inbox" rel="noreferrer">
+      <img alt="mail.yandex.com" src="https://icons.duckduckgo.com/ip3/mail.yandex.com.ico"> 
+      <span class="LinkText">ymail</span>
+    </a>
+
+
+    <a href="https://vk.com/" rel="noreferrer">
+      <img alt="vk.com" src="https://icons.duckduckgo.com/ip3/vk.com.ico"> 
+      <span>vk</span>
+    </a>
+
+    <a href="https://disk.yandex.com/client/disk?source=main-loginmenu" rel="noreferrer">
+      <img alt="disk.yandex.com" src="https://icons.duckduckgo.com/ip3/disk.yandex.com.ico"> 
+      <span>ydisk</span>
+    </a>
+
+  </div>
+
+  <!--google section-->
+  <div class="container" style="background-color: rgba(255, 0, 0, 0.05); color: #CC0000;">
+    <span class="div-title" style="color: #CC0000;"> google </span>
+    <a href="https://www.youtube.com/" rel="noreferrer">
+      <img alt="www.youtube.com" src="https://icons.duckduckgo.com/ip3/www.youtube.com.ico">
+      <span>gyoutube</span>
+    </a>
+
+    <a href="https://mail.google.com/mail/u/0/#inbox" rel="noreferrer">
+      <img alt="mail.google.com" src="https://icons.duckduckgo.com/ip3/mail.google.com.ico"> 
+      <span>gmail</span>
+    </a>
+
+    <a href="https://keep.google.com/" rel="noreferrer">
+      <img alt="keep.google.com" src="https://ssl.gstatic.com/keep/icon_2020q4v2_128.png"> 
+      <span>gkeep</span>
+    </a>
+
+    <a href="https://drive.google.com/drive/my-drive" rel="noreferrer" title="Click to visit">
+      <img alt="drive.google.com" src="https://icons.duckduckgo.com/ip3/drive.google.com.ico"> 
+      <span>gdrive</span>
+    </a>
+  </div>
+
+  <!--Programming section-->
+  <div class="container" style="background-color: rgba(0, 0, 255, 0.05); color: #0000FF;">
+    <span class="div-title" style="color: #0000FF"> IT </span>
+    
+    <a href="https://github.com/" rel="noreferrer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> 
+      <span>github</span>
+    </a>
+
+    <a href="https://colab.research.google.com/" rel="noreferrer">
+      <img alt="colab.research.google.com" src="https://icons.duckduckgo.com/ip3/colab.research.google.com.ico"> 
+      <span>gcolab</span>
+    </a>
+
+  </div>
+
+</body>
+</html>
